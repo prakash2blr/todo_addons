@@ -1,7 +1,7 @@
 {
   "name": "JATM-JUST ANOTHER TODO MANAGER",
   "description": "Just another simple todo manager. nothing special",
-  "version": "0.0.0.3",
+  "version": "0.0.0.4",
   "manifest_version": 2,
   "background": {
     "scripts": ["index.js"]

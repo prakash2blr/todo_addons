@@ -69,8 +69,8 @@ $(document).ready(function(){
             totalTaskCount=totalTaskCount+parseInt(task_count);
         }else{
             totalTaskCount=totalTaskCount+1;
-            localStorage.setItem("totalTaskCount",totalTaskCount);
         }
+        localStorage.setItem("totalTaskCount",totalTaskCount);
         var prependTask=`<div class="drag-container" data-position-stack="to-do" 
                             id="drag-${totalTaskCount}">
                             <div class="delete-list">
